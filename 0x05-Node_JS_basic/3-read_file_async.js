@@ -38,6 +38,8 @@ const countStudents = (dataPath) => new Promise((resolve, reject) => {
         console.log(`Number of students in ${field}: ${group.length}. List: ${studentNames}`);
       }
       resolve(true);
+
+
     }
   });
 });
